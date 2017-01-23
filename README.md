@@ -2,29 +2,32 @@
 Basic web application tools and structure
 
 #### technologies
-- Jade (HTML template engine)
-- SASS (.scss)
-- PostCSS auto prefixer (support for cross browsers)
+1) Jade (HTML template engine)
 
-````
+2) SASS (.scss)
+
+3) PostCSS auto prefixer (support for cross browsers)
+
+```
     .{
       transition: all .4s ease;
      }
-````
+```
 becomes
-````     
+```   
     .{
        -webkit-transition:all .4s ease;
        -o-transition:all .4s ease;
        -moz-transition:all .4s ease;
        transition:all .4s ease
      }
-````
-- Image optimizer (optimizes images' sizes)
+```
+4) Image optimizer (optimizes images' sizes)
 
 
 
 #### packages
+```
 - gulp
 - del
 - gulp-autoprefixer
@@ -33,12 +36,12 @@ becomes
 - gulp-contrib-copy
 - gulp-express
 - gulp-image
-- gulp-jade"
+- gulp-pug(known as Jade)
 - gulp-minify-css
 - gulp-sass
 - gulp-sourcemaps
 - gulp-uglify
-
+```
 #### useage
 
 If you install with npm type 
